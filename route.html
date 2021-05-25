@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <title> Contact </title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Wielrennen</h1>
+        <nav>
+            <a href="contact.html" class="link">Contact</a> 
+            <a href="route.html" class="link">Route toevoegen</a>
+            <a href="index.html" class="link">Home</a>
+        </nav>
+    </header>
+    <h2> Route formulier</h2>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>Naam: </label><br>
+            <input type="text" name="name" />
+        </p>
+        <p>
+            <label>Email: </label><br>
+            <input type="email" name="email" />
+        </p>
+        <p>
+            <label>Telefoonnummer: </label><br>
+            <input type="tel" name="telefoonnummer" />
+        </p>
+
+        <p>
+            Geslacht:<br>
+            <input type="radio" name="geslacht" value="m" />
+            <label>Man </label><br>
+            <input type="radio" name="geslacht" value="v" />
+            <label>Vrouw </label>
+        </p>
+        <p>
+            <label>Omschrijving Route: </label><br>
+            <textarea rows="10" cols="30" name="bio"></textarea>
+        </p>
+        <p>
+            <label>Upload je gpxfile: </label><br>
+            <input type="file" name="recept" />
+        </p>
+        <p>
+            <label>Url voor leuke wieler website: </label><br>
+            <input type="url" name="website" />
+        </p>
+        <p>
+            <button type="reset">Reset</button>
+        </p>
+        <p>
+            <button type="submit">Verzenden</button>
+        </p>
+    </form>
+    <footer>
+        &copy; Copyright AJvM 2021
+    </footer>
+    
+</body>
+
+</html>

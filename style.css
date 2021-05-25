@@ -1,0 +1,53 @@
+html {
+    background-color: cadetblue;
+    font-family: 'Lato', sans-serif;
+}
+header {
+    border: 2px solid black;
+    background-image:  url("wielrennen2.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.link{    
+    margin-top: 5px;
+    font-size: 20px;
+    float: right;
+    color: black;
+    margin-left: 10px;
+}
+
+h1{
+    color: black;
+    text-align: right;
+    margin-top: 100px;
+}
+p{
+    font-size: 20px;
+    
+}
+.fiets{
+    height: 200px;
+    margin-left: 100px;
+    border: black 2px ridge;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 1024px) {
+    header {
+        height: 70vh;
+    }
+    h1 {          
+        margin-top: 500px;
+        font-size: 100px;        
+}
+    .fiets{
+        height: 300px;
+}
+    p{
+        font-size: 15px;
+    }
+    
+
+}
